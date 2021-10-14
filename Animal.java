@@ -1,9 +1,11 @@
 package Exercicios;
 
-public class Animal {
+public abstract class Animal {
 
 	private String nome;
 	private int idade;
+	abstract public void emitirSom(String som);
+	abstract public void acao(String movimento);
 	
 	public Animal(String nome, int idade)
 	{

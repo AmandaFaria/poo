@@ -29,6 +29,8 @@ public class TesteAnimais {
 			
 			System.out.println("\n--------------- INFORMAÇÕES DO CACHORRO ---------------");
 			dog.imiprime();
+			dog.emitirSom("AUAU");
+			dog.acao("Correndo");
 			System.out.println("\n-------------------------------------------------------");
 			
 			System.out.println("\nInforme um nome para o cavalo: ");
@@ -45,6 +47,8 @@ public class TesteAnimais {
 			
 			System.out.println("\n--------------- INFORMAÇÕES DO CAVALO ---------------");
 			horse.imiprime();
+			horse.emitirSom("iiiirriin");
+			horse.acao("Correndo");
 			System.out.println("\n-----------------------------------------------------");
 			
 			System.out.println("\nInforme um nome para o bicho-preguiça: ");
@@ -53,12 +57,20 @@ public class TesteAnimais {
 			
 			System.out.println("\n--------------- INFORMAÇÕES DO BICHO-PREGUIÇA ---------------");
 			sloth.imiprime();
+			sloth.emitirSom("aaaaa...aaaa");
+			sloth.acao("Subindo em árvore");
 			System.out.println("\n-------------------------------------------------------------");
 			
 			System.out.println("\n--------------- INFORMAÇÕES DOS ANIMAIS ---------------");
 			dog.imiprime();
+			dog.emitirSom("AUAU");
+			dog.acao("Correndo");
 			horse.imiprime();
+			horse.emitirSom("iiiirriin");
+			horse.acao("Correndo");
 			sloth.imiprime();
+			sloth.emitirSom("aaaaa...aaaa");
+			sloth.acao("Subindo em árvore");
 			System.out.println("\n-------------------------------------------------------");
 
 	}

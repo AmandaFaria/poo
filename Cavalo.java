@@ -14,6 +14,18 @@ public class Cavalo extends Animal{
 		this.utilidade = util;
 	}
 	
+	@Override //método polimorfico
+	public void emitirSom(String som)
+	{
+		System.out.println("\nO cavalo está relinchando "+som);
+	}
+	
+	@Override
+	public void acao(String movimento)
+	{
+		System.out.println("\nO cavalo está "+movimento);
+	}
+	
 	public void imiprime()
 	{
 		System.out.println("\nNome do cavalo: "+getNome());

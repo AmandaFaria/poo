@@ -12,6 +12,18 @@ public class Cachorro extends Animal {
 		this.raca = raca;
 	}
 	
+	@Override //método polimorfico
+	public void emitirSom(String som)
+	{
+		System.out.println("\nO cachorro está latindo "+som);
+	}
+	
+	@Override
+	public void acao(String movimento)
+	{
+		System.out.println("\nO cachorro está "+movimento);
+	}
+	
 	
 	public void imiprime()
 	{

@@ -14,6 +14,18 @@ public class Preguica extends Animal{
 		this.movimento = movi;		
 	}
 	
+	@Override //método polimorfico
+	public void emitirSom(String som)
+	{
+		System.out.println("\nO bicho-preguiça está emitindo seu som "+som);
+	}
+	
+	@Override
+	public void acao(String movimento)
+	{
+		System.out.println("\nO bicho-preguiça está "+movimento);
+	}
+	
 	public void imiprime()
 	{
 		System.out.println("\nNome da preguiça: "+getNome());
